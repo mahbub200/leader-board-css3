@@ -85,7 +85,17 @@ hr {
 }
 
 /* courses style */
-/* .course .course-banner img {
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.course .course-banner img {
   width: 224px;
   height: 104px;
-} */
+}
+.fa-star.filled{
+  color:yellow;
+}
+.fa-star.empty{
+  color:rgb(173, 26, 26);
+}
